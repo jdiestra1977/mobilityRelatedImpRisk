@@ -1,0 +1,476 @@
+﻿Port Name,Measure,Year,Month of Date,Value
+Boquillas,Pedestrians,2023,May,984
+Boquillas,Pedestrians,2023,January,2176
+Brownsville,Trucks,2023,May,28168
+Brownsville,Truck Containers Loaded,2023,May,11168
+Brownsville,Truck Containers Empty,2023,May,18078
+Brownsville,Trains,2023,May,77
+Brownsville,Rail Containers Loaded,2023,May,1621
+Brownsville,Rail Containers Empty,2023,May,6402
+Brownsville,Personal Vehicles,2023,May,384707
+Brownsville,Personal Vehicle Passengers,2023,May,695535
+Brownsville,Pedestrians,2023,May,219131
+Brownsville,Buses,2023,May,125
+Brownsville,Bus Passengers,2023,May,889
+Brownsville,Trucks,2023,April,28724
+Brownsville,Truck Containers Loaded,2023,April,10450
+Brownsville,Truck Containers Empty,2023,April,20210
+Brownsville,Trains,2023,April,76
+Brownsville,Rail Containers Loaded,2023,April,1565
+Brownsville,Rail Containers Empty,2023,April,5953
+Brownsville,Personal Vehicles,2023,April,403527
+Brownsville,Personal Vehicle Passengers,2023,April,750891
+Brownsville,Pedestrians,2023,April,210827
+Brownsville,Buses,2023,April,136
+Brownsville,Bus Passengers,2023,April,1590
+Brownsville,Trucks,2023,March,32782
+Brownsville,Truck Containers Loaded,2023,March,12781
+Brownsville,Truck Containers Empty,2023,March,22117
+Brownsville,Trains,2023,March,87
+Brownsville,Rail Containers Loaded,2023,March,1714
+Brownsville,Rail Containers Empty,2023,March,7033
+Brownsville,Personal Vehicles,2023,March,414807
+Brownsville,Personal Vehicle Passengers,2023,March,746940
+Brownsville,Pedestrians,2023,March,214888
+Brownsville,Buses,2023,March,130
+Brownsville,Bus Passengers,2023,March,1054
+Brownsville,Trucks,2023,February,27467
+Brownsville,Truck Containers Loaded,2023,February,10777
+Brownsville,Truck Containers Empty,2023,February,18012
+Brownsville,Trains,2023,February,70
+Brownsville,Rail Containers Loaded,2023,February,1418
+Brownsville,Rail Containers Empty,2023,February,6286
+Brownsville,Personal Vehicles,2023,February,376041
+Brownsville,Personal Vehicle Passengers,2023,February,675656
+Brownsville,Pedestrians,2023,February,278440
+Brownsville,Buses,2023,February,122
+Brownsville,Bus Passengers,2023,February,957
+Brownsville,Trucks,2023,January,28463
+Brownsville,Truck Containers Loaded,2023,January,11268
+Brownsville,Truck Containers Empty,2023,January,19696
+Brownsville,Trains,2023,January,65
+Brownsville,Rail Containers Loaded,2023,January,1389
+Brownsville,Rail Containers Empty,2023,January,5399
+Brownsville,Personal Vehicles,2023,January,409340
+Brownsville,Personal Vehicle Passengers,2023,January,745700
+Brownsville,Pedestrians,2023,January,170300
+Brownsville,Buses,2023,January,297
+Brownsville,Bus Passengers,2023,January,32895
+Del Rio,Trucks,2023,May,6777
+Del Rio,Truck Containers Loaded,2023,May,5133
+Del Rio,Truck Containers Empty,2023,May,1925
+Del Rio,Personal Vehicles,2023,May,148456
+Del Rio,Personal Vehicle Passengers,2023,May,261653
+Del Rio,Pedestrians,2023,May,17462
+Del Rio,Trucks,2023,April,6032
+Del Rio,Truck Containers Loaded,2023,April,4549
+Del Rio,Truck Containers Empty,2023,April,1653
+Del Rio,Personal Vehicles,2023,April,143399
+Del Rio,Personal Vehicle Passengers,2023,April,246303
+Del Rio,Pedestrians,2023,April,16325
+Del Rio,Trucks,2023,March,6923
+Del Rio,Truck Containers Loaded,2023,March,5132
+Del Rio,Truck Containers Empty,2023,March,1995
+Del Rio,Personal Vehicles,2023,March,144700
+Del Rio,Personal Vehicle Passengers,2023,March,243123
+Del Rio,Pedestrians,2023,March,16110
+Del Rio,Trucks,2023,February,5823
+Del Rio,Truck Containers Loaded,2023,February,4424
+Del Rio,Truck Containers Empty,2023,February,1599
+Del Rio,Personal Vehicles,2023,February,127176
+Del Rio,Personal Vehicle Passengers,2023,February,211973
+Del Rio,Pedestrians,2023,February,16073
+Del Rio,Trucks,2023,January,6154
+Del Rio,Truck Containers Loaded,2023,January,4567
+Del Rio,Truck Containers Empty,2023,January,1815
+Del Rio,Personal Vehicles,2023,January,139980
+Del Rio,Personal Vehicle Passengers,2023,January,241473
+Del Rio,Pedestrians,2023,January,18100
+Eagle Pass,Trucks,2023,May,20252
+Eagle Pass,Truck Containers Loaded,2023,May,12862
+Eagle Pass,Truck Containers Empty,2023,May,7884
+Eagle Pass,Trains,2023,May,240
+Eagle Pass,Train Passengers,2023,May,4182
+Eagle Pass,Rail Containers Loaded,2023,May,13996
+Eagle Pass,Rail Containers Empty,2023,May,12178
+Eagle Pass,Personal Vehicles,2023,May,261642
+Eagle Pass,Personal Vehicle Passengers,2023,May,522728
+Eagle Pass,Pedestrians,2023,May,74564
+Eagle Pass,Buses,2023,May,382
+Eagle Pass,Bus Passengers,2023,May,10455
+Eagle Pass,Trucks,2023,April,17244
+Eagle Pass,Truck Containers Loaded,2023,April,11563
+Eagle Pass,Truck Containers Empty,2023,April,6518
+Eagle Pass,Trains,2023,April,248
+Eagle Pass,Rail Containers Loaded,2023,April,13401
+Eagle Pass,Rail Containers Empty,2023,April,13421
+Eagle Pass,Personal Vehicles,2023,April,252913
+Eagle Pass,Personal Vehicle Passengers,2023,April,520797
+Eagle Pass,Pedestrians,2023,April,76152
+Eagle Pass,Buses,2023,April,399
+Eagle Pass,Bus Passengers,2023,April,12915
+Eagle Pass,Trucks,2023,March,19567
+Eagle Pass,Truck Containers Loaded,2023,March,12807
+Eagle Pass,Truck Containers Empty,2023,March,7068
+Eagle Pass,Trains,2023,March,254
+Eagle Pass,Rail Containers Loaded,2023,March,14789
+Eagle Pass,Rail Containers Empty,2023,March,13727
+Eagle Pass,Personal Vehicles,2023,March,250873
+Eagle Pass,Personal Vehicle Passengers,2023,March,504250
+Eagle Pass,Pedestrians,2023,March,79039
+Eagle Pass,Buses,2023,March,460
+Eagle Pass,Bus Passengers,2023,March,14493
+Eagle Pass,Trucks,2023,February,16071
+Eagle Pass,Truck Containers Loaded,2023,February,10518
+Eagle Pass,Truck Containers Empty,2023,February,5874
+Eagle Pass,Trains,2023,February,220
+Eagle Pass,Rail Containers Loaded,2023,February,12013
+Eagle Pass,Rail Containers Empty,2023,February,13006
+Eagle Pass,Personal Vehicles,2023,February,222638
+Eagle Pass,Personal Vehicle Passengers,2023,February,439609
+Eagle Pass,Pedestrians,2023,February,39057
+Eagle Pass,Buses,2023,February,309
+Eagle Pass,Bus Passengers,2023,February,8360
+Eagle Pass,Trucks,2023,January,16800
+Eagle Pass,Truck Containers Loaded,2023,January,10914
+Eagle Pass,Truck Containers Empty,2023,January,6287
+Eagle Pass,Trains,2023,January,232
+Eagle Pass,Rail Containers Loaded,2023,January,10819
+Eagle Pass,Rail Containers Empty,2023,January,14037
+Eagle Pass,Personal Vehicles,2023,January,242988
+Eagle Pass,Personal Vehicle Passengers,2023,January,510460
+Eagle Pass,Pedestrians,2023,January,81749
+Eagle Pass,Buses,2023,January,493
+Eagle Pass,Bus Passengers,2023,January,18140
+El Paso,Trucks,2023,May,10801
+El Paso,Truck Containers Loaded,2023,May,4589
+El Paso,Truck Containers Empty,2023,May,6327
+El Paso,Trains,2023,May,111
+El Paso,Rail Containers Loaded,2023,May,2319
+El Paso,Rail Containers Empty,2023,May,7486
+El Paso,Personal Vehicles,2023,May,735172
+El Paso,Personal Vehicle Passengers,2023,May,1248945
+El Paso,Pedestrians,2023,May,173120
+El Paso,Buses,2023,May,936
+El Paso,Bus Passengers,2023,May,16985
+El Paso,Trucks,2023,April,6170
+El Paso,Truck Containers Loaded,2023,April,2644
+El Paso,Truck Containers Empty,2023,April,3610
+El Paso,Trains,2023,April,106
+El Paso,Rail Containers Loaded,2023,April,1986
+El Paso,Rail Containers Empty,2023,April,7061
+El Paso,Personal Vehicles,2023,April,692239
+El Paso,Personal Vehicle Passengers,2023,April,1199769
+El Paso,Pedestrians,2023,April,329232
+El Paso,Buses,2023,April,951
+El Paso,Bus Passengers,2023,April,17567
+El Paso,Trucks,2023,March,4050
+El Paso,Truck Containers Loaded,2023,March,1669
+El Paso,Truck Containers Empty,2023,March,2417
+El Paso,Trains,2023,March,112
+El Paso,Rail Containers Loaded,2023,March,1965
+El Paso,Rail Containers Empty,2023,March,7788
+El Paso,Personal Vehicles,2023,March,746581
+El Paso,Personal Vehicle Passengers,2023,March,1256754
+El Paso,Pedestrians,2023,March,319564
+El Paso,Buses,2023,March,840
+El Paso,Bus Passengers,2023,March,111674
+El Paso,Trucks,2023,February,3670
+El Paso,Truck Containers Loaded,2023,February,1262
+El Paso,Truck Containers Empty,2023,February,2444
+El Paso,Trains,2023,February,101
+El Paso,Rail Containers Loaded,2023,February,2001
+El Paso,Rail Containers Empty,2023,February,6838
+El Paso,Personal Vehicles,2023,February,660360
+El Paso,Personal Vehicle Passengers,2023,February,1107415
+El Paso,Pedestrians,2023,February,277874
+El Paso,Buses,2023,February,914
+El Paso,Bus Passengers,2023,February,14640
+El Paso,Trucks,2023,January,3322
+El Paso,Truck Containers Loaded,2023,January,1161
+El Paso,Truck Containers Empty,2023,January,2200
+El Paso,Trains,2023,January,112
+El Paso,Train Passengers,2023,January,560
+El Paso,Rail Containers Loaded,2023,January,2243
+El Paso,Rail Containers Empty,2023,January,7366
+El Paso,Personal Vehicles,2023,January,710315
+El Paso,Personal Vehicle Passengers,2023,January,1201079
+El Paso,Pedestrians,2023,January,300467
+El Paso,Buses,2023,January,1220
+El Paso,Bus Passengers,2023,January,20497
+Hidalgo,Trucks,2023,May,66372
+Hidalgo,Truck Containers Loaded,2023,May,44865
+Hidalgo,Truck Containers Empty,2023,May,22966
+Hidalgo,Personal Vehicles,2023,May,366369
+Hidalgo,Personal Vehicle Passengers,2023,May,714274
+Hidalgo,Pedestrians,2023,May,344672
+Hidalgo,Buses,2023,May,1066
+Hidalgo,Bus Passengers,2023,May,376718
+Hidalgo,Trucks,2023,April,57309
+Hidalgo,Truck Containers Loaded,2023,April,42565
+Hidalgo,Truck Containers Empty,2023,April,17457
+Hidalgo,Personal Vehicles,2023,April,382831
+Hidalgo,Personal Vehicle Passengers,2023,April,804245
+Hidalgo,Pedestrians,2023,April,190863
+Hidalgo,Buses,2023,April,1094
+Hidalgo,Bus Passengers,2023,April,20559
+Hidalgo,Trucks,2023,March,66062
+Hidalgo,Truck Containers Loaded,2023,March,47235
+Hidalgo,Truck Containers Empty,2023,March,19783
+Hidalgo,Personal Vehicles,2023,March,392454
+Hidalgo,Personal Vehicle Passengers,2023,March,782604
+Hidalgo,Pedestrians,2023,March,176426
+Hidalgo,Buses,2023,March,1231
+Hidalgo,Bus Passengers,2023,March,21692
+Hidalgo,Trucks,2023,February,57298
+Hidalgo,Truck Containers Loaded,2023,February,41237
+Hidalgo,Truck Containers Empty,2023,February,16931
+Hidalgo,Personal Vehicles,2023,February,349686
+Hidalgo,Personal Vehicle Passengers,2023,February,692700
+Hidalgo,Pedestrians,2023,February,163546
+Hidalgo,Buses,2023,February,1167
+Hidalgo,Bus Passengers,2023,February,13997
+Hidalgo,Trucks,2023,January,60882
+Hidalgo,Truck Containers Loaded,2023,January,43709
+Hidalgo,Truck Containers Empty,2023,January,18069
+Hidalgo,Personal Vehicles,2023,January,384335
+Hidalgo,Personal Vehicle Passengers,2023,January,785925
+Hidalgo,Pedestrians,2023,January,175268
+Hidalgo,Buses,2023,January,869
+Hidalgo,Bus Passengers,2023,January,15823
+Laredo,Trucks,2023,May,258137
+Laredo,Truck Containers Loaded,2023,May,204563
+Laredo,Truck Containers Empty,2023,May,61465
+Laredo,Trains,2023,May,370
+Laredo,Rail Containers Loaded,2023,May,27201
+Laredo,Rail Containers Empty,2023,May,18495
+Laredo,Personal Vehicles,2023,May,412966
+Laredo,Personal Vehicle Passengers,2023,May,771727
+Laredo,Pedestrians,2023,May,238375
+Laredo,Buses,2023,May,2701
+Laredo,Bus Passengers,2023,May,61367
+Laredo,Trucks,2023,April,225025
+Laredo,Truck Containers Loaded,2023,April,185135
+Laredo,Truck Containers Empty,2023,April,53893
+Laredo,Trains,2023,April,429
+Laredo,Rail Containers Loaded,2023,April,26238
+Laredo,Rail Containers Empty,2023,April,20010
+Laredo,Personal Vehicles,2023,April,405061
+Laredo,Personal Vehicle Passengers,2023,April,802713
+Laredo,Pedestrians,2023,April,231001
+Laredo,Buses,2023,April,2644
+Laredo,Bus Passengers,2023,April,75809
+Laredo,Trucks,2023,March,263896
+Laredo,Truck Containers Loaded,2023,March,207616
+Laredo,Truck Containers Empty,2023,March,61984
+Laredo,Trains,2023,March,398
+Laredo,Rail Containers Loaded,2023,March,27116
+Laredo,Rail Containers Empty,2023,March,20820
+Laredo,Personal Vehicles,2023,March,406556
+Laredo,Personal Vehicle Passengers,2023,March,764275
+Laredo,Pedestrians,2023,March,242685
+Laredo,Buses,2023,March,2693
+Laredo,Bus Passengers,2023,March,71299
+Laredo,Trucks,2023,February,229763
+Laredo,Truck Containers Loaded,2023,February,181046
+Laredo,Truck Containers Empty,2023,February,54699
+Laredo,Trains,2023,February,333
+Laredo,Rail Containers Loaded,2023,February,23380
+Laredo,Rail Containers Empty,2023,February,16626
+Laredo,Personal Vehicles,2023,February,360982
+Laredo,Personal Vehicle Passengers,2023,February,672427
+Laredo,Pedestrians,2023,February,207458
+Laredo,Buses,2023,February,1986
+Laredo,Bus Passengers,2023,February,45665
+Laredo,Trucks,2023,January,232840
+Laredo,Truck Containers Loaded,2023,January,180272
+Laredo,Truck Containers Empty,2023,January,59138
+Laredo,Trains,2023,January,367
+Laredo,Rail Containers Loaded,2023,January,24036
+Laredo,Rail Containers Empty,2023,January,20162
+Laredo,Personal Vehicles,2023,January,407791
+Laredo,Personal Vehicle Passengers,2023,January,831433
+Laredo,Pedestrians,2023,January,225422
+Laredo,Buses,2023,January,2746
+Laredo,Bus Passengers,2023,January,85926
+Presidio,Trucks,2023,May,995
+Presidio,Truck Containers Loaded,2023,May,639
+Presidio,Truck Containers Empty,2023,May,362
+Presidio,Personal Vehicles,2023,May,61393
+Presidio,Personal Vehicle Passengers,2023,May,117727
+Presidio,Pedestrians,2023,May,19623
+Presidio,Buses,2023,May,104
+Presidio,Bus Passengers,2023,May,165
+Presidio,Trucks,2023,April,840
+Presidio,Truck Containers Loaded,2023,April,548
+Presidio,Truck Containers Empty,2023,April,299
+Presidio,Personal Vehicles,2023,April,59790
+Presidio,Personal Vehicle Passengers,2023,April,118992
+Presidio,Pedestrians,2023,April,17830
+Presidio,Buses,2023,April,108
+Presidio,Bus Passengers,2023,April,178
+Presidio,Trucks,2023,March,946
+Presidio,Truck Containers Loaded,2023,March,591
+Presidio,Truck Containers Empty,2023,March,355
+Presidio,Personal Vehicles,2023,March,59138
+Presidio,Personal Vehicle Passengers,2023,March,117046
+Presidio,Pedestrians,2023,March,13984
+Presidio,Buses,2023,March,94
+Presidio,Bus Passengers,2023,March,144
+Presidio,Trucks,2023,February,956
+Presidio,Truck Containers Loaded,2023,February,652
+Presidio,Truck Containers Empty,2023,February,315
+Presidio,Personal Vehicles,2023,February,50457
+Presidio,Personal Vehicle Passengers,2023,February,95937
+Presidio,Pedestrians,2023,February,9732
+Presidio,Buses,2023,February,83
+Presidio,Bus Passengers,2023,February,143
+Presidio,Trucks,2023,January,1075
+Presidio,Truck Containers Loaded,2023,January,756
+Presidio,Truck Containers Empty,2023,January,343
+Presidio,Personal Vehicles,2023,January,59809
+Presidio,Personal Vehicle Passengers,2023,January,124143
+Presidio,Pedestrians,2023,January,24450
+Presidio,Buses,2023,January,73
+Presidio,Bus Passengers,2023,January,120
+Progreso,Trucks,2023,May,3751
+Progreso,Truck Containers Loaded,2023,May,2711
+Progreso,Truck Containers Empty,2023,May,1134
+Progreso,Personal Vehicles,2023,May,110336
+Progreso,Personal Vehicle Passengers,2023,May,230858
+Progreso,Pedestrians,2023,May,80696
+Progreso,Trucks,2023,April,3067
+Progreso,Truck Containers Loaded,2023,April,2543
+Progreso,Truck Containers Empty,2023,April,712
+Progreso,Personal Vehicles,2023,April,117888
+Progreso,Personal Vehicle Passengers,2023,April,257032
+Progreso,Pedestrians,2023,April,94278
+Progreso,Trucks,2023,March,4704
+Progreso,Truck Containers Loaded,2023,March,4121
+Progreso,Truck Containers Empty,2023,March,772
+Progreso,Personal Vehicles,2023,March,119682
+Progreso,Personal Vehicle Passengers,2023,March,254672
+Progreso,Pedestrians,2023,March,119974
+Progreso,Trucks,2023,February,3610
+Progreso,Truck Containers Loaded,2023,February,2973
+Progreso,Truck Containers Empty,2023,February,901
+Progreso,Personal Vehicles,2023,February,108394
+Progreso,Personal Vehicle Passengers,2023,February,231798
+Progreso,Pedestrians,2023,February,120660
+Progreso,Trucks,2023,January,3550
+Progreso,Truck Containers Loaded,2023,January,2901
+Progreso,Truck Containers Empty,2023,January,1060
+Progreso,Personal Vehicles,2023,January,115302
+Progreso,Personal Vehicle Passengers,2023,January,248383
+Progreso,Pedestrians,2023,January,118364
+Rio Grande City,Trucks,2023,May,4174
+Rio Grande City,Truck Containers Loaded,2023,May,4028
+Rio Grande City,Truck Containers Empty,2023,May,326
+Rio Grande City,Personal Vehicles,2023,May,36813
+Rio Grande City,Personal Vehicle Passengers,2023,May,74334
+Rio Grande City,Pedestrians,2023,May,6637
+Rio Grande City,Trucks,2023,April,3731
+Rio Grande City,Truck Containers Loaded,2023,April,3676
+Rio Grande City,Truck Containers Empty,2023,April,281
+Rio Grande City,Personal Vehicles,2023,April,35935
+Rio Grande City,Personal Vehicle Passengers,2023,April,74014
+Rio Grande City,Pedestrians,2023,April,6005
+Rio Grande City,Trucks,2023,March,4034
+Rio Grande City,Truck Containers Loaded,2023,March,3608
+Rio Grande City,Truck Containers Empty,2023,March,616
+Rio Grande City,Personal Vehicles,2023,March,36398
+Rio Grande City,Personal Vehicle Passengers,2023,March,73532
+Rio Grande City,Pedestrians,2023,March,9197
+Rio Grande City,Trucks,2023,February,3531
+Rio Grande City,Truck Containers Loaded,2023,February,3123
+Rio Grande City,Truck Containers Empty,2023,February,780
+Rio Grande City,Personal Vehicles,2023,February,33530
+Rio Grande City,Personal Vehicle Passengers,2023,February,67608
+Rio Grande City,Pedestrians,2023,February,9793
+Rio Grande City,Trucks,2023,January,3664
+Rio Grande City,Truck Containers Loaded,2023,January,3369
+Rio Grande City,Truck Containers Empty,2023,January,765
+Rio Grande City,Personal Vehicles,2023,January,35992
+Rio Grande City,Personal Vehicle Passengers,2023,January,73533
+Rio Grande City,Pedestrians,2023,January,7181
+Roma,Trucks,2023,May,4028
+Roma,Truck Containers Loaded,2023,May,3579
+Roma,Truck Containers Empty,2023,May,638
+Roma,Personal Vehicles,2023,May,68292
+Roma,Personal Vehicle Passengers,2023,May,121360
+Roma,Pedestrians,2023,May,18051
+Roma,Buses,2023,May,55
+Roma,Bus Passengers,2023,May,701
+Roma,Trucks,2023,April,3304
+Roma,Truck Containers Loaded,2023,April,2839
+Roma,Truck Containers Empty,2023,April,546
+Roma,Personal Vehicles,2023,April,67113
+Roma,Personal Vehicle Passengers,2023,April,124690
+Roma,Pedestrians,2023,April,19127
+Roma,Buses,2023,April,46
+Roma,Bus Passengers,2023,April,813
+Roma,Trucks,2023,March,3613
+Roma,Truck Containers Loaded,2023,March,2941
+Roma,Truck Containers Empty,2023,March,759
+Roma,Personal Vehicles,2023,March,67863
+Roma,Personal Vehicle Passengers,2023,March,124073
+Roma,Pedestrians,2023,March,17179
+Roma,Buses,2023,March,50
+Roma,Bus Passengers,2023,March,774
+Roma,Trucks,2023,February,3179
+Roma,Truck Containers Loaded,2023,February,2506
+Roma,Truck Containers Empty,2023,February,733
+Roma,Personal Vehicles,2023,February,61658
+Roma,Personal Vehicle Passengers,2023,February,111286
+Roma,Pedestrians,2023,February,15241
+Roma,Buses,2023,February,34
+Roma,Bus Passengers,2023,February,290
+Roma,Trucks,2023,January,3458
+Roma,Truck Containers Loaded,2023,January,2731
+Roma,Truck Containers Empty,2023,January,797
+Roma,Personal Vehicles,2023,January,65989
+Roma,Personal Vehicle Passengers,2023,January,123836
+Tornillo,Personal Vehicles,2023,May,42045
+Tornillo,Personal Vehicle Passengers,2023,May,76421
+Tornillo,Pedestrians,2023,May,3393
+Tornillo,Personal Vehicles,2023,April,40132
+Tornillo,Personal Vehicle Passengers,2023,April,73443
+Tornillo,Pedestrians,2023,April,3281
+Tornillo,Personal Vehicles,2023,March,37992
+Tornillo,Personal Vehicle Passengers,2023,March,68727
+Tornillo,Pedestrians,2023,March,2251
+Tornillo,Personal Vehicles,2023,February,32508
+Tornillo,Personal Vehicle Passengers,2023,February,57375
+Tornillo,Pedestrians,2023,February,2904
+Tornillo,Personal Vehicles,2023,January,33128
+Tornillo,Personal Vehicle Passengers,2023,January,59154
+Tornillo,Pedestrians,2023,January,3136
+Ysleta,Trucks,2023,May,59109
+Ysleta,Truck Containers Loaded,2023,May,39610
+Ysleta,Truck Containers Empty,2023,May,20042
+Ysleta,Personal Vehicles,2023,May,291251
+Ysleta,Personal Vehicle Passengers,2023,May,496352
+Ysleta,Pedestrians,2023,May,125507
+Ysleta,Trucks,2023,April,49856
+Ysleta,Truck Containers Loaded,2023,April,35258
+Ysleta,Truck Containers Empty,2023,April,16653
+Ysleta,Personal Vehicles,2023,April,284268
+Ysleta,Personal Vehicle Passengers,2023,April,498382
+Ysleta,Pedestrians,2023,April,124304
+Ysleta,Trucks,2023,March,63768
+Ysleta,Truck Containers Loaded,2023,March,41636
+Ysleta,Truck Containers Empty,2023,March,22314
+Ysleta,Personal Vehicles,2023,March,287051
+Ysleta,Personal Vehicle Passengers,2023,March,489628
+Ysleta,Pedestrians,2023,March,115287
+Ysleta,Trucks,2023,February,56522
+Ysleta,Truck Containers Loaded,2023,February,36406
+Ysleta,Truck Containers Empty,2023,February,20399
+Ysleta,Personal Vehicles,2023,February,267937
+Ysleta,Personal Vehicle Passengers,2023,February,455338
+Ysleta,Trucks,2023,January,60032
+Ysleta,Truck Containers Loaded,2023,January,37855
+Ysleta,Truck Containers Empty,2023,January,22708
+Ysleta,Personal Vehicles,2023,January,288814
+Ysleta,Personal Vehicle Passengers,2023,January,493582
+Ysleta,Pedestrians,2023,January,108023

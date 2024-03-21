@@ -1,0 +1,51 @@
+Airport,AirportCode,AirportRank,Passanger,zipcode,probs
+"Atlanta, GA (Hartsfield-Jackson Atlanta International)",ATL,1,49783123,30320,0.07259461474258695
+"Los Angeles, CA (Los Angeles International)",LAX,2,37057840,90009,0.05403838602074901
+"Chicago, IL (Chicago O'Hare International)",ORD,3,36490096,60018,0.0532104918576525
+"Dallas/Fort Worth, TX (Dallas/Fort Worth International)",DFW,4,31708943,75261,0.04623853149951339
+"New York, NY (John F. Kennedy International)",JFK,5,27999238,11430,0.04082897522712669
+"Denver, CO (Denver International)",DEN,6,26626876,80249,0.03882777311938897
+"San Francisco, CA (San Francisco International)",SFO,7,24374805,94128,0.03554376406640223
+"Charlotte, NC (Charlotte Douglas International)",CLT,8,22239565,28208,0.03243012000708997
+"Las Vegas, NV (McCarran International)",LAS,9,22097505,89111,0.03222296564736184
+"Phoenix, AZ (Phoenix Sky Harbor International)",PHX,10,21935329,85034,0.03198647778699812
+"Miami, FL (Miami International)",MIA,11,21093786,33142,0.03075932516593172
+"Houston, TX (George Bush Intercontinental/Houston)",IAH,12,20771968,77032,0.030290044568022468
+"Seattle, WA (Seattle/Tacoma International)",SEA,13,20223367,98158,0.02949006506005954
+"Orlando, FL (Orlando International)",MCO,14,18890286,32827,0.027546143188873145
+"Newark, NJ (Newark Liberty International)",EWR,15,18761904,07114,0.02735893432634592
+"Minneapolis, MN (Minneapolis-St Paul International)",MSP,16,17753814,55450,0.025888919976787047
+"Boston, MA (Logan International)",BOS,17,16366187,02128,0.023865458180880594
+"Detroit, MI (Detroit Metro Wayne County)",DTW,18,16338390,48174,0.02382492411261815
+"Philadelphia, PA (Philadelphia International)",PHL,19,15210085,19153,0.022179610161801235
+"New York, NY (LaGuardia)",LGA,20,14333938,11371,0.020901997386827808
+"Fort Lauderdale, FL (Fort Lauderdale-Hollywood International)",FLL,21,13149918,33315,0.019175438855184107
+"Baltimore, MD (Baltimore/Washington International Thurgood Marshall)",BWI,22,12018313,21240,0.017525312787042797
+"Washington, DC (Ronald Reagan Washington National)",DCA,23,11292497,20593,0.016466915287673273
+"Chicago, IL (Chicago Midway International)",MDW,24,11203403,60638,0.01633699686921897
+"Salt Lake City, UT (Salt Lake City International)",SLC,25,10697496,04122,0.01559927449369468
+"Washington, DC (Washington Dulles International)",IAD,26,10440911,20166,0.01522511778954965
+"San Diego, CA (San Diego International)",SAN,27,10184207,92101,0.014850787557537467
+"Honolulu, HI (Honolulu International)",HNL,28,9579087,96819,0.013968391061981448
+"Tampa, FL (Tampa International)",TPA,29,9310599,33614,0.01357687719646908
+"Portland, OR (Portland International)",PDX,30,8379061,97218,0.012218492303097083
+"Dallas, TX (Dallas Love Field)",DAL,31,7415552,75235,0.010813486742155974
+"St. Louis, MO (Lambert-St. Louis International)",STL,32,6486985,63145,0.0094594342125933
+"Houston, TX (William P Hobby)",HOU,33,6285558,77061,0.009165709862199391
+"Austin, TX (Austin - Bergstrom International)",AUS,34,5950408,78719,0.008676988310299604
+"Nashville, TN (Nashville International)",BNA,35,5933579,37214,0.008652447970162586
+"Oakland, CA (Metropolitan Oakland International)",OAK,36,5689426,94621,0.008296419824374167
+"New Orleans, LA (Louis Armstrong New Orleans International)",MSY,37,5466225,70062,0.00797094424894351
+"Kansas City, MO (Kansas City International)",MCI,38,5293009,64153,0.007718357668803651
+"Raleigh/Durham, NC (Raleigh-Durham International)",RDU,39,5002315,27560,0.007294462628350252
+"Santa Ana, CA (John Wayne Airport-Orange County)",SNA,40,4999142,92707,0.007289835704631982
+"San Jose, CA (Norman Y. Mineta San Jose International)",SJC,41,4903715,95110,0.007150682395566963
+"Sacramento, CA (Sacramento International)",SMF,42,4810107,95837,0.007014181583899843
+"San Juan, PR (Luis Munoz Marin International)",SJU,43,4271558,00979,0.006228860076950481
+"San Antonio, TX (San Antonio International)",SAT,44,4210893,78216,0.006140397320137112
+"Fort Myers, FL (Southwest Florida International)",RSW,45,4192333,33913,0.006113332805730846
+"Indianapolis, IN (Indianapolis International)",IND,46,3960509,46241,0.005775283021909821
+"Cleveland, OH (Cleveland-Hopkins International)",CLE,47,3955494,44135,0.005767970061794119
+"Pittsburgh, PA (Pittsburgh International)",PIT,48,3950675,15231,0.005760942912283139
+"Columbus, OH (Port Columbus International)",CMH,49,3360186,43219,0.00489988159508262
+"Milwaukee, WI (General Mitchell International)",MKE,50,3318610,53207,0.004839254749664791
