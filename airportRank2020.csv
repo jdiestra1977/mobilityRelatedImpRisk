@@ -1,51 +1,51 @@
-﻿Airport,Enplaned2020
-"New York, NY: John F. Kennedy International"," 4,128.4 "
-"Miami, FL: Miami International"," 3,345.0 "
-"Los Angeles, CA: Los Angeles International"," 3,114.1 "
-"Newark, NJ: Newark Liberty International"," 1,875.7 "
-"Chicago, IL: Chicago O'Hare International"," 1,743.4 "
-"Houston, TX: George Bush Intercontinental/Houston"," 1,731.4 "
-"Atlanta, GA: Hartsfield-Jackson Atlanta International"," 1,677.0 "
-"Dallas/Fort Worth, TX: Dallas/Fort Worth International"," 1,636.6 "
-"San Francisco, CA: San Francisco International"," 1,548.7 "
-"Fort Lauderdale, FL: Fort Lauderdale-Hollywood International"," 1,403.3 "
-"Washington, DC: Washington Dulles International", 957.9 
-"Boston, MA: Logan International", 776.2 
-"Orlando, FL: Orlando International", 772.4 
-"Seattle, WA: Seattle/Tacoma International", 618.6 
-"Charlotte, NC: Charlotte Douglas International", 529.7 
-"Honolulu, HI: Daniel K Inouye International", 491.6 
-"Denver, CO: Denver International", 456.5 
-"Detroit, MI: Detroit Metro Wayne County", 426.2 
-"Minneapolis, MN: Minneapolis-St Paul International", 409.2 
-"Phoenix, AZ: Phoenix Sky Harbor International", 370.6 
-"Las Vegas, NV: Harry Reid International", 363.1 
-"Philadelphia, PA: Philadelphia International", 335.1 
-"New York, NY: LaGuardia", 201.3 
-"Baltimore, MD: Baltimore/Washington International Thurgood Marshall", 168.3 
-"Houston, TX: William P Hobby", 160.2 
-"Salt Lake City, UT: Salt Lake City International", 153.4 
-"San Jose, CA: Norman Y. Mineta San Jose International", 148.0 
-"Tampa, FL: Tampa International", 139.4 
-"Chicago, IL: Chicago Midway International", 133.8 
-"San Juan, PR: Luis Munoz Marin International", 127.4 
-"San Diego, CA: San Diego International", 121.2 
-"Oakland, CA: Metro Oakland International", 107.6 
-"Portland, OR: Portland International", 104.7 
-"Sacramento, CA: Sacramento International", 90.1 
-"Palm Springs, CA: Palm Springs International", 88.0 
-"Fresno, CA: Fresno Yosemite International", 83.3 
-"San Antonio, TX: San Antonio International", 76.6 
-"Fort Myers, FL: Southwest Florida International", 74.3 
-"Kahului, HI: Kahului Airport", 44.4 
-"Ontario, CA: Ontario International", 41.2 
-"Austin, TX: Austin - Bergstrom International", 39.2 
-"St. Louis, MO: St Louis Lambert International", 35.4 
-"Washington, DC: Ronald Reagan Washington National", 33.3 
-"Kona, HI: Ellison Onizuka Kona International at Keahole", 32.7 
-"West Palm Beach/Palm Beach, FL: Palm Beach International", 31.1 
-"New Orleans, LA: Louis Armstrong New Orleans International", 24.6 
-"Raleigh/Durham, NC: Raleigh-Durham International", 23.8 
-"Nashville, TN: Nashville International", 23.8 
-"Cleveland, OH: Cleveland-Hopkins International", 17.5 
-"Cincinnati, OH: Cincinnati/Northern Kentucky International", 17.4 
+﻿2020 Rank,Airport,2020 Enplaned Passengers,2019 Rank,2019 Enplaned Passengers,Pct. Change 2019-2020
+1,"New York, NY: John F. Kennedy International"," 4,128.4 ",1,"16,878.1",-75.5
+2,"Miami, FL: Miami International"," 3,345.0 ",3,"10,514.0",-68.2
+3,"Los Angeles, CA: Los Angeles International"," 3,114.1 ",2,"12,451.4",-75.0
+4,"Newark, NJ: Newark Liberty International"," 1,875.7 ",5,"7,067.1",-73.5
+5,"Chicago, IL: Chicago O'Hare International"," 1,743.4 ",6,"6,820.7",-74.4
+6,"Houston, TX: George Bush Intercontinental/Houston"," 1,731.4 ",8,"5,475.5",-68.4
+7,"Atlanta, GA: Hartsfield-Jackson Atlanta International"," 1,677.0 ",7,"6,224.8",-73.1
+8,"Dallas/Fort Worth, TX: Dallas/Fort Worth International"," 1,636.6 ",9,"4,623.5",-64.6
+9,"San Francisco, CA: San Francisco International"," 1,548.7 ",4,"7,319.2",-78.8
+10,"Fort Lauderdale, FL: Fort Lauderdale-Hollywood International"," 1,403.3 ",10,"4,209.9",-66.7
+11,"Washington, DC: Washington Dulles International", 957.9 ,11,"4,110.7",-76.7
+12,"Boston, MA: Logan International", 776.2 ,12,"3,912.0",-80.2
+13,"Orlando, FL: Orlando International", 772.4 ,13,"3,445.4",-77.6
+14,"Seattle, WA: Seattle/Tacoma International", 618.6 ,14,"2,752.2",-77.5
+15,"Charlotte, NC: Charlotte Douglas International", 529.7 ,18,"1,764.3",-70.0
+16,"Honolulu, HI: Daniel K Inouye International", 491.6 ,15,"2,294.6",-78.6
+17,"Denver, CO: Denver International", 456.5 ,21,"1,554.3",-70.6
+18,"Detroit, MI: Detroit Metro Wayne County", 426.2 ,17,"1,866.6",-77.2
+19,"Minneapolis, MN: Minneapolis-St Paul International", 409.2 ,20,"1,616.6",-74.7
+20,"Phoenix, AZ: Phoenix Sky Harbor International", 370.6 ,23,"1,035.7",-64.2
+21,"Las Vegas, NV: Harry Reid International", 363.1 ,19,"1,755.6",-79.3
+22,"Philadelphia, PA: Philadelphia International", 335.1 ,16,"1,975.4",-83.0
+23,"New York, NY: LaGuardia", 201.3 ,22,"1,122.2",-82.1
+24,"Baltimore, MD: Baltimore/Washington International Thurgood Marshall", 168.3 ,24,549.0,-69.3
+25,"Houston, TX: William P Hobby", 160.2 ,28,427.8,-62.6
+26,"Salt Lake City, UT: Salt Lake City International", 153.4 ,26,522.9,-70.7
+27,"San Jose, CA: Norman Y. Mineta San Jose International", 148.0 ,30,424.0,-65.1
+28,"Tampa, FL: Tampa International", 139.4 ,25,534.3,-73.9
+29,"Chicago, IL: Chicago Midway International", 133.8 ,32,393.6,-66.0
+30,"San Juan, PR: Luis Munoz Marin International", 127.4 ,29,426.8,-70.1
+31,"San Diego, CA: San Diego International", 121.2 ,27,520.6,-76.7
+32,"Oakland, CA: Metro Oakland International", 107.6 ,33,363.5,-70.4
+33,"Portland, OR: Portland International", 104.7 ,31,409.7,-74.4
+34,"Sacramento, CA: Sacramento International", 90.1 ,41,168.1,-46.4
+35,"Palm Springs, CA: Palm Springs International", 88.0 ,36,221.4,-60.3
+36,"Fresno, CA: Fresno Yosemite International", 83.3 ,44,136.5,-39.0
+37,"San Antonio, TX: San Antonio International", 76.6 ,35,223.5,-65.7
+38,"Fort Myers, FL: Southwest Florida International", 74.3 ,38,185.8,-60.0
+39,"Kahului, HI: Kahului Airport", 44.4 ,40,169.7,-73.8
+40,"Ontario, CA: Ontario International", 41.2 ,46,124.9,-67.0
+41,"Austin, TX: Austin - Bergstrom International", 39.2 ,34,258.2,-84.8
+42,"St. Louis, MO: St Louis Lambert International", 35.4 ,43,151.6,-76.6
+43,"Washington, DC: Ronald Reagan Washington National", 33.3 ,39,179.6,-81.5
+44,"Kona, HI: Ellison Onizuka Kona International at Keahole", 32.7 ,47,110.1,-70.3
+45,"West Palm Beach/Palm Beach, FL: Palm Beach International", 31.1 ,55,59.3,-47.6
+46,"New Orleans, LA: Louis Armstrong New Orleans International", 24.6 ,48,102.1,-75.9
+47,"Raleigh/Durham, NC: Raleigh-Durham International", 23.8 ,37,187.7,-87.3
+48,"Nashville, TN: Nashville International", 23.8 ,42,153.3,-84.5
+49,"Cleveland, OH: Cleveland-Hopkins International", 17.5 ,51,83.0,-78.9
+50,"Cincinnati, OH: Cincinnati/Northern Kentucky International", 17.4 ,45,127.6,-86.4
