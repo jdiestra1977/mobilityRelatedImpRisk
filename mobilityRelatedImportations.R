@@ -359,7 +359,8 @@ countiesUSA %>% merge(EstCasesArrivingByCountyAll,by.x="GEOID",by.y="FIPS")%>%
 library(readxl)
 #From https://ourworldindata.org/grapher/dengue-incidence?tab=table&time=2018..latest
 #Dengue cases in countries from 1990 to 2019
-dengueUntil2019<-read_csv("dengue-incidenceUntil2019.csv")
+getwd()
+dengueUntil2019<-read_excel("dengue-incidenceUntil2019.xlsx")
 denguePaho<-read_excel("DenguePaho2019To2024.xlsx") %>%
   mutate_if(is.numeric, ~replace(., is.na(.), 0))
 denguePaho
