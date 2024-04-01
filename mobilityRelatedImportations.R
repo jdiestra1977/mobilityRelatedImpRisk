@@ -4,16 +4,17 @@ library(housingData)
 library(cowplot)
 
 remove(list = ls())
-
+getwd()
 #Reading files with Malaria cases by county in the USA
 malaria2016<-read_csv("Number_of_Reported_Malaria_Cases_by_County__United_States__2016.csv")
 malaria2017<-read_csv("Number_of_Reported_Malaria_Cases_by_County__United_States__2017.csv")
-
+load("~/Projects/Malaria/casesBoth16y17.RData")
+casesBoth16y17
 #County level map - USA
 countiesUSA <- get_acs(
   geography = "county",
   variables = "B01003_001E",
-  year = 2019,
+  year = 2022,
   output = 'wide',
   geometry=TRUE
 )
@@ -53,6 +54,7 @@ ggsave(last_plot(),file="NumberOfCases.png",width = 15,height = 8)
 #(https://www.who.int/data/gho/data/indicators/indicator-details/GHO/total-number-of-malaria-cases-presumed-confirmed-cases)
 #malariaTotalCountries<-read_csv("totalNumberOfMalaria.csv")
 malariaTotalCountries<-read_csv("MalariaCasesUntil2021.csv")
+malaria2022 <- read_csv("MalariaData2022.csv")
 
 malariaTotalCountries<-malariaTotalCountries %>% 
   select(Country=Location,Year=Period,Cases=FactValueNumeric) %>%
@@ -65,6 +67,7 @@ malariaTotalCountries<-malariaTotalCountries %>%
 malariaTotalCountries$Country<-str_replace(malariaTotalCountries$Country, " \\s*\\([^\\)]+\\)", "")
 malariaTotalCountries %>% filter(Country=="Brazil") %>% select(Year,Cases)
 
+malariaTotalCountries %>% filter(str_detect(Country,"Viet")) %>% print(n=22)
 #Read file with arrivals to the USA in from 2000 to present
 #From here: https://www.trade.gov/i-94-arrivals-program 
 #totalArrivalsByFlight2000ToPresent<-read_csv("MonthlyArrivalsFlight2000ToPresent.csv")
@@ -337,7 +340,7 @@ my_breaks = c(0.01,0.1,1,10,100,1000,10000)
 
 mapBase<-countiesUSA %>% filter(!GEOID %in% c(alaska,hawaii,puertoR))
 
-countiesUSA %>% merge(EstCasesArrivingByCountyAll,by.x="GEOID",by.y="FIPS")%>%
+malariaMapa2019<-countiesUSA %>% merge(EstCasesArrivingByCountyAll %>% filter(Year=="2019"),by.x="GEOID",by.y="FIPS")%>%
   filter(!GEOID %in% c(alaska,hawaii,puertoR)) %>%
   mutate(CasesByCounty=ifelse(is.na(CasesByCounty),0,CasesByCounty)) %>%
   ggplot()+ theme_void() +
@@ -360,8 +363,201 @@ library(readxl)
 #From https://ourworldindata.org/grapher/dengue-incidence?tab=table&time=2018..latest
 #Dengue cases in countries from 1990 to 2019
 getwd()
+
+#For Dengue in 2019 - This is important since there was a reduction
+#of Dengue in 2020 and 2021 due to the pandemic
 dengueUntil2019<-read_excel("dengue-incidenceUntil2019.xlsx")
+dengueTotal2019<-dengueUntil2019 %>% filter(Year==2019) %>% drop_na() %>%
+  filter(Cases>0) %>% rename_at("Entity",~"Country")
+
+arrivalsIn2019<-totalArrivalsByFlight2000To2022 %>% 
+  select(Country=`International Visitors`,`2019`) %>%
+  drop_na() %>% pivot_longer(cols = contains("20"),values_to = "NumberOfVisits",names_to = "Year") %>%
+  mutate(Country=ifelse(Country=="Zaire","DR Congo",Country)) %>% mutate(Year=as.factor(Year))
+
+population2019 <- read_excel("population2019To2023.xlsx") %>%
+  select(Country,Year,Population=`Total Population`) %>% filter(Year=="2019") %>%
+  mutate(Year=as.factor(Year),Population=as.numeric(Population)) %>% drop_na()
+
+#Importation risk for 2016, 2017 and 2020
+estTravsByFlightToUSADengue<-dengueTotal2019 %>% select(Country,Cases) %>%
+  left_join(population2019) %>% left_join(arrivalsIn2019 %>% select(-Year)) %>%
+  mutate(EstTravsWithDengue=(Cases/Population)*NumberOfVisits) %>%
+  drop_na() %>% filter(Cases>0)
+
+##### USA - Mexico border ######
+
+#Cities and counties in the USA - Mexico border
+#this has to be verified depending on the year.
+#This list may change
+#From: https://www.bts.gov/browse-statistical-products-and-data/border-crossing-data/border-crossingentry-data
+countiesCrossings<-data.frame(Place=c("Boquillas","Del Rio","Eagle Pass","El Paso","Hidalgo","Laredo","Presidio","Rio Grande City",
+                                      "Roma","Tornillo","Ysleta","Brownsville","Progreso","Nogales","San Luis","Sasabe","Lukeville",
+                                      "Naco","Douglas","Otay Mesa","Tecate","Calexico East","San Ysidro","Calexico","Andrade",
+                                      "Cross Border Xpress","Columbus","Santa Teresa"),
+                              County=c("Brewster","Val Verde","Maverick","El Paso","Hidalgo","Webb","Presidio","Starr","Starr",
+                                       "El Paso","El Paso","Cameron","Hidalgo","Santa Cruz","Yuma","Pima","Pima","Cochise","Cochise",
+                                       "San Diego","San Diego","Imperial","San Diego","Imperial","Imperial","San Diego","Luna",
+                                       "Dona Ana"),
+                              FIPS=c("48043","48465","48323","48141","48215","48479","48377","48427","48427",
+                                     "48141","48141","48061","48215","04023","04027","04019","04019","04003","04003",
+                                     "06073","06073","06025","06073","06025","06025","06073","35029","35013"))
+
+populationMexico2019<- population2019 %>% filter(Country=="Mexico")
+
+borderTotal<-read_excel("CrossingBorder2019To2023.xlsx")
+
+dengueMexico2019<-dengueTotal2019 %>% filter(Country=="Mexico") %>% 
+  select(-Country,-Code) %>% mutate(Year=as.factor(Year))
+
+totalCrossingsUS_MX2019<-borderTotal %>% mutate_if(is.numeric, ~replace(., is.na(.), 0)) %>%
+  select(Place=`Port Name`,`2019`) %>%
+  pivot_longer(cols=contains("20"),values_to = "peopleCrossing",names_to = "Year") %>%
+  group_by(Place,Year) %>% summarise_each(sum) %>% left_join(countiesCrossings) %>% 
+  left_join(populationMexico2019 %>% select(-Country)) %>% left_join(dengueMexico2019) %>% drop_na() %>% ungroup() %>%
+  select(Year,peopleCrossing,FIPS,Population,Cases) %>% group_by(Year,FIPS,Population,Cases) %>%
+  summarise_each(sum) %>% mutate(EstTravsWithDengueBorder=(Cases/Population)*peopleCrossing)
+
+#Airports ranking (https://www.bts.gov/topics/annual-airport-rankings)
+#Numbers in "enplaned" columns should be multiplied by 1000
+ranking19<-read_csv("airportRank2019.csv")
+ranking20<-read_csv("airportRank2020.csv")
+ranking21<-read_csv("airportRank2021.csv")
+
+ranking19 %>% select(Airport=Airport1,Passengers2019=`2019 Enplaned Passengers`) %>%
+  mutate(Passengers2019=Passengers2019*1000)
+ranking20 %>% select(Airport,Passengers2020=`2020 Enplaned Passengers`) %>%
+  mutate(Passengers2020=Passengers2020*1000)
+ranking21 %>% select(Airport,Passengers2021=`2021 Enplaned Passengers`) %>%
+  mutate(Passengers2021=Passengers2021*1000)
+# # Ver #This needs more work, I have a list of all airports in the USA
+# ver1<-read_csv("Aviation_Facilities.csv")
+# ver1 %>% select(STATE_CODE,ARPT_ID,REGION_CODE,STATE_NAME,COUNTY_NAME,ARPT_NAME) %>%
+#   filter(STATE_NAME=="TEXAS",COUNTY_NAME=="HARRIS") %>%
+#   filter(str_detect(ARPT_NAME,"BUSH"))
+# 
+# ver1 %>% #filter(str_detect(ARPT_ID,"LAX")) %>%
+#   filter(STATE_NAME,"TEXAS")
+# 
+# ##
+
+#Homogenization of airport names to merge with different data bases about ranking
+
+# arrivalFlights<-read_csv("ArrivalAndProbArrival.csv")
+# 
+# test1<-arrivalFlights %>% select(Airport,zipcode) %>%
+#   mutate(Airport= str_sub(Airport, end = -2)) %>%
+#   separate(Airport,c("State","Name"),sep="[(]") %>% select(Name,zipcode)
+# 
+# test2<-data.frame(Name=c("Cincinnati/Northern Kentucky International","Daniel K Inouye International",
+#             "Ellison Onizuka Kona International at Keahole","Fresno Yosemite International",
+#             "Harry Reid International","Metro Oakland International","Kahului Airport",
+#             "Ontario International","Palm Beach International","Palm Springs International",
+#             "St Louis Lambert International","Bradley International","Reno/Tahoe International"),
+#   zipcode=c("41018","96819","96740","93727","89119","94621","96732","91761","33415","92262",
+#             "63145","06096","89502"))
+# 
+# airportsWithZipcode <- rbind(test1,test2) %>% arrange(Name)
+
+#I created this file manually of airports and their zip codes.
+save(airportsWithZipcode,file="airportsWithZipcode.RData")
+load("airportsWithZipcode.RData")
+airportsWithZipcode
+
+probArrival2019<-ranking19 %>% mutate(Volume=`2019 Enplaned Passengers`*1000) %>% separate(Airport1,c("State","Name"),": ") %>%
+  merge(airportsWithZipcode,all=T) %>% 
+  filter(!is.na(Volume)) %>% replace(is.na(.),0) %>%
+  select(zipcode,Volume) %>% mutate(ProbOfArrival=Volume/sum(Volume)) %>% left_join(zip2fips) %>% 
+  select(FIPS,Volume,ProbOfArrival) %>% group_by(FIPS) %>% summarise_each(sum) %>% arrange(desc(ProbOfArrival))
+
+
+EstCasesArrivingByCountyFlightDengue<-
+  estTravsByFlightToUSADengue %>% mutate(Year=as.factor(Year)) %>%
+          merge(probArrival2019,by=NULL) %>% arrange(Country) %>%
+          mutate(CasesByCounty=EstTravsWithDengue*ProbOfArrival) %>%
+          select(Year,FIPS,Volume,CasesByCounty) %>%
+  group_by(Year,FIPS) %>% summarise_each(sum)
+
+estTravsByFlightToUSADengue %>% #filter(Year!=2020) %>%
+  ggplot(aes(x=log(Cases),y=log(EstTravsWithDengue)))+
+  geom_point(size=4) + geom_smooth(method = "lm",se=F)+ theme_bw() +
+  facet_wrap(~Year) + 
+  theme(text=element_text(size=20),legend.position = c(0.1,0.9))
+
+EstCasesArrivingByCountyAllDengue2019<-
+  rbind(EstCasesArrivingByCountyFlightDengue,
+        totalCrossingsUS_MX2019 %>% ungroup() %>%
+          select(Year,FIPS,Volume=peopleCrossing,CasesByCounty=EstTravsWithDengueBorder)) %>%
+  group_by(Year,FIPS) %>% summarise_each(sum)
+
+EstCasesArrivingByCountyAllDengue2019
+
+my_breaks1 = c(10000,1000000,1000000,100000000,10000000000)
+mapBase<-countiesUSA %>% filter(!GEOID %in% c(alaska,hawaii,puertoR))
+
+countiesUSA %>% merge(EstCasesArrivingByCountyAllDengue2019,by.x="GEOID",by.y="FIPS") %>%
+  filter(!GEOID %in% c(alaska,hawaii,puertoR)) %>%
+  mutate(Volume=ifelse(is.na(Volume),0,Volume)) %>%
+  ggplot()+ theme_void() +
+  geom_sf(data=mapBase,fill="white",color="gray") +
+  geom_sf(data=statesUSA %>% filter(!NAME %in% c("Alaska","Hawaii","Puerto Rico")),
+          fill=NA,color="red",linewidth=0.5)+
+  geom_sf(aes(fill=(Volume)),color="gray") +
+  theme(text=element_text(size=20))+
+  scale_fill_gradient(trans = "log",
+                      breaks = my_breaks1, labels = my_breaks1,
+                      low = "cornsilk1", #"#075AFF",
+                      high = "blue4",
+                      name="Arrivals") +
+  theme(legend.position = c(0.85,0.2)) + facet_wrap(~Year)
+
+#write_csv(arrivalsByCounty2016,file="arrivalsByCounty2016.csv")
+
+my_breaks = c(0.01,0.1,1,10,100,1000,10000,100000)
+
+mapBase<-countiesUSA %>% filter(!GEOID %in% c(alaska,hawaii,puertoR))
+
+dengueMapa2019<-countiesUSA %>% merge(EstCasesArrivingByCountyAllDengue2019,by.x="GEOID",by.y="FIPS")%>%
+  filter(!GEOID %in% c(alaska,hawaii,puertoR)) %>%
+  mutate(CasesByCounty=ifelse(is.na(CasesByCounty),0,CasesByCounty)) %>%
+  ggplot()+ theme_void() +
+  geom_sf(data=mapBase,fill="white",color="gray") +
+  geom_sf(data=statesUSA %>% filter(!NAME %in% c("Alaska","Hawaii","Puerto Rico")),
+          fill=NA,color="red",linewidth=0.5)+
+  geom_sf(aes(fill=(CasesByCounty)),color="gray") +
+  theme(legend.title = element_blank(),text=element_text(size=20))+
+  scale_fill_gradient(trans = "log",
+                      breaks = my_breaks, labels = my_breaks,
+                      low = "cornsilk1", #"#075AFF",
+                      high = "blue4",
+                      name="prob") +
+  theme(legend.position = c(0.85,0.2)) + facet_wrap(~Year)
+
+plot_grid(malariaMapa2019,dengueMapa2019)
+
+###### Hasta aqui
 denguePaho<-read_excel("DenguePaho2019To2024.xlsx") %>%
   mutate_if(is.numeric, ~replace(., is.na(.), 0))
-denguePaho
+denguePaho %>% select(Country,"2019","2023") %>% print(n=52)
+
+verEsto<-read_csv("~/Downloads/National_extract_V1_2.csv")
+verEsto %>% select(full_name,Year,dengue_total) %>% 
+  group_by(full_name,Year) %>% summarise_each(sum) %>%
+  filter(Year %in% c(2019,2023)) %>% #print(n=22)
+  ungroup() %>% select(full_name) %>% group_by(full_name)%>% count() %>%
+  arrange(desc(n)) %>% print(n=96)
+
+dengueCounty2023<-read_csv("DengueCounty2023.csv")
+dengueState2023<-read_csv("DengueStates2023.csv")
+variables2022<-read_csv("variables2022.csv")
+getwd()
+varsAndImportCases<-variables2022 %>% rename_at("GEOID",~"FIPS") %>% 
+  left_join(dengueCounty2023 %>% select(FIPS=County,REPORTED_IMPORTS=Count) %>%
+              mutate(REPORTED_IMPORTS=ifelse(REPORTED_IMPORTS=="1 to 4", "0",REPORTED_IMPORTS)) %>%
+              mutate(REPORTED_IMPORTS=as.numeric(REPORTED_IMPORTS)))
+write_csv(varsAndImportCases,file="varsAndImportCases2022.csv")
+
+maxTemp2023<-read_csv("maxTempCounty2023.csv")
+
+names(varsAndImportCases)
 

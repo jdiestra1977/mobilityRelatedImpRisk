@@ -1,0 +1,793 @@
+﻿Country,ConfirmationType,2022
+Algeria,Suspected cases,1292
+Algeria,Presumed and,1292
+Algeria,Confirmed,1292
+Algeria,Microscopy examined,1292
+Algeria,Microscopy positive,1292
+Algeria,Imported cases,1292
+Angola,Suspected cases,16172933
+Angola,Presumed and,9221410
+Angola,Confirmed,7858860
+Angola,Microscopy examined,7857537
+Angola,Microscopy positive,3934900
+Angola,RDT examined,6926016
+Angola,RDT positive,3923960
+Benin,Suspected cases,4059542
+Benin,Presumed and,2571043
+Benin,Confirmed,2474689
+Benin,Microscopy examined,439332
+Benin,Microscopy positive,279233
+Benin,RDT examined,3220557
+Benin,RDT positive,2195456
+Botswana,Suspected cases,17295
+Botswana,Presumed and,446
+Botswana,Confirmed,446
+Botswana,Microscopy examined,1003
+Botswana,Microscopy positive,-
+Botswana,RDT examined,16090
+Botswana,RDT positive,446
+Botswana,Imported cases,49
+Burkina Faso,Suspected cases,17324387
+Burkina Faso,Presumed and,11958988
+Burkina Faso,Confirmed,11415559
+Burkina Faso,Microscopy examined,370093
+Burkina Faso,Microscopy positive,195754
+Burkina Faso,RDT examined,16410865
+Burkina Faso,RDT positive,11219805
+Burundi,Suspected cases,14378061
+Burundi,Presumed and,8124159
+Burundi,Confirmed,8117435
+Burundi,Microscopy examined,2013113
+Burundi,Microscopy positive,971263
+Burundi,RDT examined,12051825
+Burundi,RDT positive,7146172
+Cabo Verde,Suspected cases,10246
+Cabo Verde,Presumed and,27
+Cabo Verde,Confirmed,27
+Cabo Verde,Microscopy examined,10246
+Cabo Verde,Microscopy positive,27
+Cabo Verde,RDT examined,6196
+Cabo Verde,RDT positive,0
+Cabo Verde,Imported cases,26
+Cameroon,Suspected cases,5162188
+Cameroon,Presumed and,3382676
+Cameroon,Confirmed,3327381
+Cameroon,Microscopy examined,1361007
+Cameroon,Microscopy positive,963595
+Cameroon,RDT examined,3544747
+Cameroon,RDT positive,2363786
+Central African Republic,Suspected cases,3352129
+Central African Republic,Presumed and,2460689
+Central African Republic,Confirmed,2247250
+Central African Republic,Microscopy examined,276494
+Central African Republic,Microscopy positive,214285
+Central African Republic,RDT examined,2771175
+Central African Republic,RDT positive,2032965
+Chad,Suspected cases,2755046
+Chad,Presumed and,1882503
+Chad,Confirmed,1671060
+Chad,Microscopy examined,264439
+Chad,Microscopy positive,194912
+Chad,RDT examined,2073184
+Chad,RDT positive,1476148
+Comoros,Suspected cases,233847
+Comoros,Presumed and confirmed,20681
+Comoros,Confirmed,20681
+Comoros,Microscopy examined,162648
+Comoros,Microscopy positive,7672
+Comoros,RDT examined,71199
+Comoros,RDT positive,13009
+Comoros,Imported cases,6
+Congo,Suspected cases,823100
+Congo,Presumed and confirmed,581329
+Congo,Confirmed,364466
+Congo,Microscopy examined,270105
+Congo,Microscopy positive,135898
+Congo,RDT examined,319053
+Congo,RDT positive,228568
+Ivory Coast,Suspected cases,15533289
+Ivory Coast,Presumed and confirmed,8408469
+Ivory Coast,Confirmed,8145591
+Ivory Coast,Microscopy examined,1850863
+Ivory Coast,Microscopy positive,1227464
+Ivory Coast,RDT examined,7868431
+Ivory Coast,RDT positive,6918127
+DR Congo,Suspected cases,39367459
+DR Congo,Presumed and confirmed,29390652
+DR Congo,Confirmed,27349509
+DR Congo,Microscopy examined,2385163
+DR Congo,Microscopy positive,1358923
+DR Congo,RDT examined,34941153
+DR Congo,RDT positive,25990586
+Equatorial Guinea,Suspected cases,158244
+Equatorial Guinea,Presumed and confirmed,98346
+Equatorial Guinea,Confirmed,71204
+Equatorial Guinea,Microscopy examined,97694
+Equatorial Guinea,Microscopy positive,56886
+Equatorial Guinea,RDT examined,33408
+Equatorial Guinea,RDT positive,14318
+Eritrea,Suspected cases,407463
+Eritrea,Presumed and confirmed,65853
+Eritrea,Confirmed,65063
+Eritrea,Microscopy examined,131509
+Eritrea,Microscopy positive,18147
+Eritrea,RDT examined,275147
+Eritrea,RDT positive,46916
+Eswatini,Suspected cases,77682
+Eswatini,Presumed and confirmed,369
+Eswatini,Confirmed,369
+Eswatini,Microscopy examined,162
+Eswatini,Microscopy positive,95
+Eswatini,RDT examined,77520
+Eswatini,RDT positive,274
+Ethiopia,Imported cases,155
+Ethiopia,Suspected cases,7546500
+Ethiopia,Presumed and confirmed,1837213
+Ethiopia,Confirmed,1732562
+Ethiopia,Microscopy examined,7441849
+Ethiopia,Microscopy positive,1732562
+Gabon,Imported cases,1465
+Gabon,Suspected cases,156958
+Gabon,Presumed and confirmed,100290
+Gabon,Confirmed,45783
+Gabon,Microscopy examined,63388
+Gabon,Microscopy positive,27887
+Gabon,RDT examined,37481
+Gabon,RDT positive,17896
+Gambia,Suspected cases,713242
+Gambia,Presumed and confirmed,119104
+Gambia,Confirmed,119104
+Gambia,Microscopy examined,262070
+Gambia,Microscopy positive,42480
+Gambia,RDT examined,451172
+Gambia,RDT positive,76624
+Ghana,Suspected cases,10930585
+Ghana,Presumed and confirmed,5456588
+Ghana,Confirmed,5239236
+Ghana,Microscopy examined,3409994
+Ghana,Microscopy positive,1264229
+Ghana,RDT examined,7284471
+Ghana,RDT positive,3975007
+Guinea,Suspected cases,6315992
+Guinea,Presumed and confirmed,4372223
+Guinea,Confirmed,2474774
+Guinea,Microscopy examined,257178
+Guinea,Microscopy positive,131767
+Guinea,RDT examined,4161365
+Guinea,RDT positive,2343007
+Guinea-Bissau,Suspected cases,501423
+Guinea-Bissau,Presumed and confirmed,185156
+Guinea-Bissau,Confirmed,185156
+Guinea-Bissau,Microscopy examined,146666
+Guinea-Bissau,Microscopy positive,47359
+Guinea-Bissau,RDT examined,350222
+Guinea-Bissau,RDT positive,137797
+Kenya,Suspected cases,13508830
+Kenya,Presumed and confirmed,5232307
+Kenya,Confirmed,4890691
+Kenya,Microscopy examined,6154581
+Kenya,Microscopy positive,1127502
+Kenya,RDT examined,7012633
+Kenya,RDT positive,3343289
+Liberia,Suspected cases,1214098
+Liberia,Presumed and confirmed,760056
+Liberia,Confirmed,696684
+Liberia,Microscopy examined,356700
+Liberia,Microscopy positive,218297
+Liberia,RDT examined,794026
+Liberia,RDT positive,478387
+Madagascar,Suspected cases,4248332
+Madagascar,Presumed and confirmed,1693321
+Madagascar,Confirmed,1679547
+Madagascar,Microscopy examined,10305
+Madagascar,Microscopy positive,2852
+Madagascar,RDT examined,4224253
+Madagascar,RDT positive,1676695
+Madagascar,Imported cases,-
+Malawi,Suspected cases,10899799
+Malawi,Presumed and confirmed,4251068
+Malawi,Confirmed,4226161
+Malawi,Microscopy examined,156925
+Malawi,Microscopy positive,52173
+Malawi,RDT examined,10711306
+Malawi,RDT positive,4173988
+Mali,Suspected cases,5572383
+Mali,Presumed and confirmed,4004297
+Mali,Confirmed,3771426
+Mali,Microscopy examined,835860
+Mali,Microscopy positive,632358
+Mali,RDT examined,4490638
+Mali,RDT positive,3139068
+Mauritania,Suspected cases,205333
+Mauritania,Presumed and confirmed,130720
+Mauritania,Confirmed,41901
+Mauritania,Microscopy examined,4600
+Mauritania,Microscopy positive,1361
+Mauritania,RDT examined,111914
+Mauritania,RDT positive,40540
+Mayotte,Suspected cases,
+Mayotte,Presumed and confirmed,-
+Mayotte,Confirmed,-
+Mayotte,Microscopy examined,-
+Mayotte,Microscopy positive,-
+Mayotte,Imported cases,-
+Mayotte,Relapse cases,-
+Mozambique,Suspected cases,23225280
+Mozambique,Presumed and confirmed,12405868
+Mozambique,Confirmed,12387459
+Mozambique,Microscopy examined,1129094
+Mozambique,Microscopy positive,371766
+Mozambique,RDT examined,22077777
+Mozambique,RDT positive,12015693
+Namibia,Suspected cases,369364
+Namibia,Presumed and confirmed,11849
+Namibia,Confirmed,11849
+Namibia,Microscopy examined,1039
+Namibia,Microscopy positive,49
+Namibia,RDT examined,362797
+Namibia,RDT positive,11800
+Namibia,Imported cases,1548
+Niger,Suspected cases,9001730
+Niger,Presumed and confirmed,5648740
+Niger,Confirmed,5166412
+Niger,Microscopy examined,445044
+Niger,Microscopy positive,267548
+Niger,RDT examined,8074358
+Niger,RDT positive,4898864
+Nigeria,Suspected cases,32983459
+Nigeria,Presumed and confirmed,24968466
+Nigeria,Confirmed,23050405
+Nigeria,Microscopy examined,3186224
+Nigeria,Microscopy positive,2377840
+Nigeria,RDT examined,27879174
+Nigeria,RDT positive,20672565
+Rwanda,Suspected cases,5117823
+Rwanda,Presumed and confirmed,857228
+Rwanda,Confirmed,857228
+Rwanda,Microscopy examined,3023720
+Rwanda,Microscopy positive,205153
+Rwanda,RDT examined,2094103
+Rwanda,RDT positive,652075
+Sao Tome and Principe,Suspected cases,228377
+Sao Tome and Principe,Presumed and confirmed,3979
+Sao Tome and Principe,Confirmed,3979
+Sao Tome and Principe,Microscopy examined,4058
+Sao Tome and Principe,Microscopy positive,2502
+Sao Tome and Principe,RDT examined,224319
+Sao Tome and Principe,RDT positive,1477
+Senegal,Imported cases,9
+Senegal,Suspected cases,2193851
+Senegal,Presumed and confirmed,391679
+Senegal,Confirmed,358033
+Senegal,Microscopy examined,20296
+Senegal,Microscopy positive,4664
+Senegal,RDT examined,2139909
+Senegal,RDT positive,353369
+Senegal,Imported cases,0
+Sierra Leone,Suspected cases,2979539
+Sierra Leone,Presumed and confirmed,1862886
+Sierra Leone,Confirmed,1768419
+Sierra Leone,Microscopy examined,167999
+Sierra Leone,Microscopy positive,78371
+Sierra Leone,RDT examined,2660791
+Sierra Leone,RDT positive,1690048
+South Africa,Suspected cases,28641
+South Africa,Presumed and confirmed,7280
+South Africa,Confirmed,7280
+South Africa,Microscopy examined,6758
+South Africa,Microscopy positive,1190
+South Africa,RDT examined,28641
+South Africa,RDT positive,7280
+South Africa,Imported cases,5237
+South Sudan,Suspected cases,9874633
+South Sudan,Presumed and confirmed,5538588
+South Sudan,Confirmed,2527657
+South Sudan,Microscopy examined,3593783
+South Sudan,Microscopy positive,259472
+South Sudan,RDT examined,3269919
+South Sudan,RDT positive,2268185
+Togo,Suspected cases,3536879
+Togo,Presumed and confirmed,2222943
+Togo,Confirmed,2222943
+Togo,Microscopy examined,545147
+Togo,Microscopy positive,197157
+Togo,RDT examined,2911059
+Togo,RDT positive,2017505
+Uganda,Suspected cases,30886839
+Uganda,Presumed and confirmed,20012873
+Uganda,Confirmed,19185472
+Uganda,Microscopy examined,4850295
+Uganda,Microscopy positive,1867654
+Uganda,RDT examined,25155167
+Uganda,RDT positive,15006036
+Tanzania,Suspected cases,19062775
+Tanzania,Presumed and confirmed,3666741
+Tanzania,Confirmed,3661208
+Tanzania,Microscopy examined,1151121
+Tanzania,Microscopy positive,174640
+Tanzania,RDT examined,17898920
+Tanzania,RDT positive,3355968
+Tanzania,Imported cases,6244
+Mainland,Suspected cases,18629918
+Mainland,Presumed and confirmed,3662184
+Mainland,Confirmed,3656651
+Mainland,Microscopy examined,1113993
+Mainland,Microscopy positive,174276
+Mainland,RDT examined,17510392
+Mainland,RDT positive,3351775
+Mainland,Imported cases,2951
+Zanzibar,Suspected cases,432857
+Zanzibar,Presumed and confirmed,4557
+Zanzibar,Confirmed,4557
+Zanzibar,Microscopy examined,37128
+Zanzibar,Microscopy positive,364
+Zanzibar,RDT examined,388528
+Zanzibar,RDT positive,4193
+Zanzibar,Imported cases,3293
+Zambia,Suspected cases,16376877
+Zambia,Presumed and confirmed,8318534
+Zambia,Confirmed,8126829
+Zambia,Microscopy examined,416225
+Zambia,Microscopy positive,98782
+Zambia,RDT examined,15768947
+Zambia,RDT positive,8028047
+Zimbabwe,Suspected cases,985957
+Zimbabwe,Presumed and confirmed,141076
+Zimbabwe,Confirmed,141076
+Zimbabwe,Microscopy examined,-
+Zimbabwe,Microscopy positive,-
+Zimbabwe,RDT examined,967891
+Zimbabwe,RDT positive,141076
+Zimbabwe,Imported cases,-
+Argentina,Suspected cases,1077
+Argentina,Presumed and confirmed,10
+Argentina,Confirmed,10
+Argentina,Microscopy examined,1077
+Argentina,Microscopy positive,10
+Argentina,RDT positive,-
+Argentina,Imported cases,10
+Belize,Suspected cases,28121
+Belize,Presumed and confirmed,0
+Belize,Confirmed,0
+Belize,Microscopy examined,10514
+Belize,Microscopy positive,0
+Belize,RDT examined,16299
+Belize,RDT positive,0
+Belize,Imported cases,0
+Belize,Relapse cases,0
+Bolivia,Suspected cases,155466
+Bolivia,Presumed and confirmed,10330
+Bolivia,Confirmed,10330
+Bolivia,Microscopy examined,-
+Bolivia,Microscopy positive,7692
+Bolivia,RDT examined,-
+Bolivia,RDT positive,2638
+Bolivia,Imported cases,9
+Brazil,Suspected cases,1391127
+Brazil,Presumed and confirmed,151530
+Brazil,Confirmed,151530
+Brazil,Microscopy examined,1151314
+Brazil,Microscopy positive,113752
+Brazil,RDT examined,80477
+Brazil,RDT positive,17502
+Brazil,Imported cases,2254
+Brazil,Relapse cases,20276
+Colombia,Suspected cases,222903
+Colombia,Presumed and confirmed,73561
+Colombia,Confirmed,73561
+Colombia,Microscopy examined,195291
+Colombia,Microscopy positive,59811
+Colombia,RDT examined,27612
+Colombia,RDT positive,13750
+Colombia,Imported cases,864
+Costa Rica,Suspected cases,10946
+Costa Rica,Presumed and confirmed,462
+Costa Rica,Confirmed,462
+Costa Rica,Microscopy examined,10946
+Costa Rica,Microscopy positive,409
+Costa Rica,RDT examined,20093
+Costa Rica,RDT positive,398
+Costa Rica,Imported cases,36
+Costa Rica,Relapse cases,5
+Dominican Republic,Suspected cases,77709
+Dominican Republic,Presumed and confirmed,337
+Dominican Republic,Confirmed,337
+Dominican Republic,Microscopy examined,49466
+Dominican Republic,Microscopy positive,0
+Dominican Republic,RDT examined,28243
+Dominican Republic,RDT positive,337
+Dominican Republic,Imported cases,17
+Dominican Republic,Relapse cases,-
+Ecuador,Suspected cases,122820
+Ecuador,Presumed and confirmed,1666
+Ecuador,Confirmed,1666
+Ecuador,Microscopy examined,122504
+Ecuador,Microscopy positive,1213
+Ecuador,RDT examined,316
+Ecuador,RDT positive,315
+Ecuador,Imported cases,42
+Ecuador,Relapse cases,138
+El Salvador,Suspected cases,22235
+El Salvador,Presumed and confirmed,1
+El Salvador,Confirmed,1
+El Salvador,Microscopy examined,22235
+El Salvador,Microscopy positive,1
+El Salvador,RDT examined,-
+El Salvador,RDT positive,-
+El Salvador,Imported cases,1
+French Guiana,Suspected cases,5322
+French Guiana,Presumed and confirmed,51
+French Guiana,Confirmed,51
+French Guiana,Microscopy examined,4600
+French Guiana,Microscopy positive,38
+French Guiana,RDT examined,736
+French Guiana,RDT positive,27
+French Guiana,Imported cases,15
+French Guiana,Relapse cases,15
+Guatemala,Suspected cases,454272
+Guatemala,Presumed and confirmed,1856
+Guatemala,Confirmed,1856
+Guatemala,Microscopy examined,381272
+Guatemala,Microscopy positive,1811
+Guatemala,RDT examined,73000
+Guatemala,RDT positive,-
+Guatemala,Imported cases,-
+Guyana,Suspected cases,93879
+Guyana,Presumed and confirmed,20769
+Guyana,Confirmed,20769
+Guyana,Microscopy examined,73726
+Guyana,Microscopy positive,15106
+Guyana,RDT examined,20153
+Guyana,RDT positive,5663
+Guyana,Imported cases,39
+Guyana,Relapse cases,-
+Haiti,Suspected cases,230117
+Haiti,Presumed and confirmed,14757
+Haiti,Confirmed,14757
+Haiti,Microscopy examined,23157
+Haiti,Microscopy positive,831
+Haiti,RDT examined,206960
+Haiti,RDT positive,13926
+Honduras,Suspected cases,159584
+Honduras,Presumed and confirmed,3580
+Honduras,Confirmed,3580
+Honduras,Microscopy examined,138052
+Honduras,Microscopy positive,3321
+Honduras,RDT examined,21532
+Honduras,RDT positive,259
+Honduras,Imported cases,36
+Honduras,Relapse cases,4
+Mexico,Suspected cases,376185
+Mexico,Presumed and confirmed,244
+Mexico,Confirmed,244
+Mexico,Microscopy examined,372714
+Mexico,Microscopy positive,215
+Mexico,RDT examined,3471
+Mexico,RDT positive,29
+Mexico,Imported cases,77
+Mexico,Relapse cases,3
+Nicaragua,Suspected cases,1616617
+Nicaragua,Presumed and confirmed,16158
+Nicaragua,Confirmed,16158
+Nicaragua,Microscopy examined,-
+Nicaragua,Microscopy positive,10361
+Nicaragua,RDT examined,-
+Nicaragua,RDT positive,5747
+Nicaragua,Imported cases,50
+Panama,Suspected cases,44785
+Panama,Presumed and confirmed,7173
+Panama,Confirmed,7173
+Panama,Microscopy examined,25732
+Panama,Microscopy positive,628
+Panama,RDT examined,29319
+Panama,RDT positive,6800
+Panama,Imported cases,31
+Panama,Relapse cases,467
+Paraguay,Suspected cases,11183
+Paraguay,Presumed and confirmed,3
+Paraguay,Confirmed,3
+Paraguay,Microscopy examined,11183
+Paraguay,Microscopy positive,3
+Paraguay,RDT examined,49
+Paraguay,RDT positive,3
+Paraguay,Imported cases,3
+Peru,Suspected cases,279778
+Peru,Presumed and confirmed,27785
+Peru,Confirmed,27785
+Peru,Microscopy examined,278546
+Peru,Microscopy positive,26553
+Peru,RDT examined,1232
+Peru,RDT positive,1232
+Peru,Imported cases,0
+Suriname,Suspected cases,11466
+Suriname,Presumed and confirmed,61
+Suriname,Confirmed,61
+Suriname,Microscopy examined,11445
+Suriname,Microscopy positive,51
+Suriname,RDT examined,11433
+Suriname,RDT positive,10
+Suriname,Imported cases,60
+Suriname,Relapse cases,0
+Venezuela,Suspected cases,553872
+Venezuela,Presumed and confirmed,151458
+Venezuela,Confirmed,151458
+Venezuela,Microscopy examined,283790
+Venezuela,Microscopy positive,81002
+Venezuela,RDT examined,270082
+Venezuela,RDT positive,70456
+Venezuela,Imported cases,1544
+Venezuela,Relapse cases,14274
+Afghanistan,Suspected cases,954750
+Afghanistan,Presumed and confirmed,125788
+Afghanistan,Confirmed,125620
+Afghanistan,Microscopy examined,596883
+Afghanistan,Microscopy positive,59891
+Afghanistan,RDT examined,357699
+Afghanistan,RDT positive,65729
+Djibouti,Suspected cases,213680
+Djibouti,Presumed and confirmed,40648
+Djibouti,Confirmed,40648
+Djibouti,Microscopy examined,49837
+Djibouti,Microscopy positive,10084
+Djibouti,RDT examined,163843
+Djibouti,RDT positive,30564
+Iran,Suspected cases,604963
+Iran,Presumed and confirmed,5677
+Iran,Confirmed,5677
+Iran,Microscopy examined,568492
+Iran,Microscopy positive,5665
+Iran,RDT examined,39223
+Iran,RDT positive,2229
+Iran,Imported cases,4238
+Iran,Relapse cases,0
+Pakistan,Suspected cases,13051047
+Pakistan,Presumed and confirmed,1824844
+Pakistan,Confirmed,1824396
+Pakistan,Microscopy examined,6742977
+Pakistan,Microscopy positive,474654
+Pakistan,RDT examined,6307622
+Pakistan,RDT positive,1349742
+Saudi Arabia,Suspected cases,764822
+Saudi Arabia,Presumed and confirmed,4319
+Saudi Arabia,Confirmed,4319
+Saudi Arabia,Microscopy examined,206975
+Saudi Arabia,Microscopy positive,2608
+Saudi Arabia,RDT examined,557847
+Saudi Arabia,RDT positive,1711
+Saudi Arabia,Imported cases,4045
+Somalia,Suspected cases,348740
+Somalia,Presumed and confirmed,23450
+Somalia,Confirmed,11550
+Somalia,Microscopy examined,25182
+Somalia,Microscopy positive,4174
+Somalia,RDT examined,311658
+Somalia,RDT positive,7376
+Sudan,Suspected cases,7957950
+Sudan,Presumed and confirmed,3768163
+Sudan,Confirmed,1355789
+Sudan,Microscopy examined,4665151
+Sudan,Microscopy positive,1137726
+Sudan,RDT examined,823287
+Sudan,RDT positive,218063
+Yemen,Suspected cases,1592228
+Yemen,Presumed and confirmed,201792
+Yemen,Confirmed,155127
+Yemen,Microscopy examined,695371
+Yemen,Microscopy positive,62281
+Yemen,RDT examined,850192
+Yemen,RDT positive,92846
+Armenia,Suspected cases,-
+Armenia,Presumed and confirmed,2
+Armenia,Confirmed,-
+Armenia,Microscopy examined,-
+Armenia,Microscopy positive,-
+Armenia,Imported cases,2
+Azerbaijan,Suspected cases,-
+Azerbaijan,Presumed and confirmed,1
+Azerbaijan,Confirmed,-
+Azerbaijan,Microscopy examined,-
+Azerbaijan,Microscopy positive,-
+Azerbaijan,Imported cases,1
+Georgia,Suspected cases,-
+Georgia,Presumed and confirmed,-
+Georgia,Confirmed,-
+Georgia,Microscopy examined,-
+Georgia,Microscopy positive,-
+Georgia,Imported cases,-
+Kyrgyzstan,Suspected cases,-
+Kyrgyzstan,Presumed and confirmed,-
+Kyrgyzstan,Confirmed,-
+Kyrgyzstan,Microscopy examined,-
+Kyrgyzstan,Microscopy positive,-
+Kyrgyzstan,RDT examined,-
+Kyrgyzstan,RDT positive,-
+Kyrgyzstan,Imported cases,-
+Tajikistan,Suspected cases,-
+Tajikistan,Presumed and confirmed,1
+Tajikistan,Confirmed,-
+Tajikistan,Microscopy examined,-
+Tajikistan,Microscopy positive,-
+Tajikistan,RDT examined,-
+Tajikistan,RDT positive,-
+Tajikistan,Imported cases,1
+Turkey,Suspected cases,-
+Turkey,Presumed and confirmed,-
+Turkey,Confirmed,-
+Turkey,Microscopy examined,-
+Turkey,Microscopy positive,-
+Turkey,Imported cases,-
+Turkmenistan,Suspected cases,-
+Turkmenistan,Presumed and confirmed,-
+Turkmenistan,Confirmed,-
+Turkmenistan,Microscopy examined,-
+Turkmenistan,Microscopy positive,-
+Turkmenistan,Imported cases,-
+Uzbekistan,Suspected cases,-
+Uzbekistan,Presumed and confirmed,-
+Uzbekistan,Confirmed,-
+Uzbekistan,Microscopy examined,-
+Uzbekistan,Microscopy positive,-
+Uzbekistan,Imported cases,-
+Bangladesh,Suspected cases,1632840
+Bangladesh,Presumed and confirmed,18246
+Bangladesh,Confirmed,18246
+Bangladesh,Microscopy examined,460668
+Bangladesh,Microscopy positive,906
+Bangladesh,RDT examined,1172172
+Bangladesh,RDT positive,17340
+Bangladesh,Imported cases,13
+Bhutan,Suspected cases,42205
+Bhutan,Presumed and confirmed,6
+Bhutan,Confirmed,6
+Bhutan,Microscopy examined,12146
+Bhutan,Microscopy positive,6
+Bhutan,RDT examined,30059
+Bhutan,RDT positive,0
+Bhutan,Imported cases,3
+Bhutan,Relapse cases,0
+South Korea,Suspected cases,378989
+South Korea,Presumed and confirmed,2136
+South Korea,Confirmed,2136
+South Korea,Microscopy examined,11673
+South Korea,Microscopy positive,2056
+South Korea,RDT examined,367316
+South Korea,RDT positive,80
+South Korea,Imported cases,0
+India,Suspected cases,152523919
+India,Presumed and confirmed,176522
+India,Confirmed,176522
+India,Microscopy examined,117785803
+India,Microscopy positive,75222
+India,RDT examined,34264089
+India,RDT positive,101300
+Indonesia,Suspected cases,3395811
+Indonesia,Presumed and confirmed,443530
+Indonesia,Confirmed,443530
+Indonesia,Microscopy examined,1743771
+Indonesia,Microscopy positive,293356
+Indonesia,RDT examined,1612968
+Indonesia,RDT positive,150174
+Indonesia,Imported cases,67
+Myanmar,Suspected cases,2660341
+Myanmar,Presumed and confirmed,157538
+Myanmar,Confirmed,157538
+Myanmar,Microscopy examined,128630
+Myanmar,Microscopy positive,5399
+Myanmar,RDT examined,2546083
+Myanmar,RDT positive,153071
+Myanmar,Imported cases,5
+Myanmar,Relapse cases,65
+Nepal,Suspected cases,371296
+Nepal,Presumed and confirmed,512
+Nepal,Confirmed,512
+Nepal,Microscopy examined,82917
+Nepal,Microscopy positive,404
+Nepal,RDT examined,287974
+Nepal,RDT positive,108
+Nepal,Imported cases,476
+Sri Lanka,Suspected cases,808827
+Sri Lanka,Presumed and confirmed,37
+Sri Lanka,Confirmed,37
+Sri Lanka,Microscopy examined,795287
+Sri Lanka,Microscopy positive,37
+Sri Lanka,RDT examined,13540
+Sri Lanka,RDT positive,0
+Sri Lanka,Imported cases,37
+Thailand,Suspected cases,674142
+Thailand,Presumed and confirmed,10154
+Thailand,Confirmed,10154
+Thailand,Microscopy examined,558021
+Thailand,Microscopy positive,6994
+Thailand,RDT examined,116121
+Thailand,RDT positive,3160
+Thailand,Imported cases,3726
+Thailand,Relapse cases,57
+Timor-Leste,Suspected cases,166167
+Timor-Leste,Presumed and confirmed,2
+Timor-Leste,Confirmed,2
+Timor-Leste,Microscopy examined,31767
+Timor-Leste,Microscopy positive,2
+Timor-Leste,RDT examined,134400
+Timor-Leste,RDT positive,0
+Timor-Leste,Imported cases,2
+Timor-Leste,Relapse cases,0
+Cambodia,Suspected cases,974311
+Cambodia,Presumed and confirmed,4053
+Cambodia,Confirmed,4053
+Cambodia,Microscopy examined,7129
+Cambodia,Microscopy positive,399
+Cambodia,RDT examined,967182
+Cambodia,RDT positive,3654
+Cambodia,Imported cases,6
+Cambodia,Relapse cases,1609
+China,Suspected cases,-
+China,Presumed and confirmed,820
+China,Confirmed,820
+China,Microscopy examined,-
+China,Microscopy positive,820
+China,Imported cases,819
+Lao People’s Democratic Republic,Suspected cases,844865
+Lao People’s Democratic Republic,Presumed and confirmed,2340
+Lao People’s Democratic Republic,Confirmed,2340
+Lao People’s Democratic Republic,Microscopy examined,67534
+Lao People’s Democratic Republic,Microscopy positive,64
+Lao People’s Democratic Republic,RDT examined,777331
+Lao People’s Democratic Republic,RDT positive,2276
+Lao People’s Democratic Republic,Imported cases,59
+Lao People’s Democratic Republic,Relapse cases,5
+Malaysia,Suspected cases,866447
+Malaysia,Presumed and confirmed,2807
+Malaysia,Confirmed,2807
+Malaysia,Microscopy examined,866447
+Malaysia,Microscopy positive,2807
+Malaysia,Imported cases,291
+Malaysia,Relapse cases,0
+Papua New Guinea,Suspected cases,1766390
+Papua New Guinea,Presumed and confirmed,1022780
+Papua New Guinea,Confirmed,899510
+Papua New Guinea,Microscopy examined,51533
+Papua New Guinea,Microscopy positive,21355
+Papua New Guinea,RDT examined,1591587
+Papua New Guinea,RDT positive,878155
+Philippines,Suspected cases,290324
+Philippines,Presumed and confirmed,3245
+Philippines,Confirmed,3245
+Philippines,Microscopy examined,94352
+Philippines,Microscopy positive,387
+Philippines,RDT examined,195972
+Philippines,RDT positive,2858
+Philippines,Imported cases,34
+Philippines,Relapse cases,0
+Republic of Korea,Suspected cases,444
+Republic of Korea,Presumed and confirmed,428
+Republic of Korea,Confirmed,428
+Republic of Korea,Microscopy examined,440
+Republic of Korea,Microscopy positive,421
+Republic of Korea,RDT examined,248
+Republic of Korea,RDT positive,245
+Republic of Korea,Imported cases,38
+Republic of Korea,Relapse cases,8
+Solomon Islands,Suspected cases,271037
+Solomon Islands,Presumed and confirmed,141456
+Solomon Islands,Confirmed,100995
+Solomon Islands,Microscopy examined,105260
+Solomon Islands,Microscopy positive,42041
+Solomon Islands,RDT examined,125316
+Solomon Islands,RDT positive,58954
+Vanuatu,Suspected cases,15696
+Vanuatu,Presumed and confirmed,1143
+Vanuatu,Confirmed,1143
+Vanuatu,Microscopy examined,695
+Vanuatu,Microscopy positive,0
+Vanuatu,RDT examined,15001
+Vanuatu,RDT positive,1143
+Vanuatu,Imported cases,41
+Vanuatu,Relapse cases,0
+Vietnam,Suspected cases,1416684
+Vietnam,Presumed and confirmed,455
+Vietnam,Confirmed,455
+Vietnam,Microscopy examined,1182837
+Vietnam,Microscopy positive,439
+Vietnam,RDT examined,233847
+Vietnam,RDT positive,16
+Vietnam,Imported cases,43
